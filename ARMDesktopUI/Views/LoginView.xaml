@@ -29,7 +29,7 @@
         <TextBlock Grid.Row="1" Grid.Column="1"  Margin="0 0 0 10">
             Username:
         </TextBlock>
-        <TextBox x:Name="username" Grid.Row="1" Grid.Column="2" MinWidth="100" 
+        <TextBox x:Name="userName" Grid.Row="1" Grid.Column="2" MinWidth="100" 
                  Margin="0 0 0 10"/>
 
         <!--Password Row-->
