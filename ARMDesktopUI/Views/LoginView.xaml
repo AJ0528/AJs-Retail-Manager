@@ -29,7 +29,7 @@
         <TextBlock Grid.Row="1" Grid.Column="1"  Margin="0 0 0 10">
             Username:
         </TextBlock>
-        <TextBox x:Name="userName" Grid.Row="1" Grid.Column="2" MinWidth="100" 
+        <TextBox x:Name="UserName" Grid.Row="1" Grid.Column="2" MinWidth="100" 
                  Margin="0 0 0 10"/>
 
         <!--Password Row-->
@@ -37,13 +37,21 @@
         <TextBlock Grid.Row="2" Grid.Column="1"  Margin="0 0 0 10">
             Password:
         </TextBlock>
-        <PasswordBox x:Name="password" Grid.Row="2" Grid.Column="2" MinWidth="100" 
+        <PasswordBox x:Name="Password" Grid.Row="2" Grid.Column="2" MinWidth="100" 
                  Margin="0 0 0 10"/>
 
         <!--Login Row-->
 
-        <Button Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Padding="20 5"
-                HorizontalAlignment="Center" x:Name="LogIn" Margin="96,10,0,194" Width="132">
+        <Button Grid.Row="4" Grid.Column="2" Padding="20 5"
+                HorizontalAlignment="Center" x:Name="LogIn" Margin="0,7,1,194" Width="107" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.046"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
             Log In
         </Button>
     </Grid>

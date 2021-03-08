@@ -9,7 +9,7 @@ namespace ARMDesktopUI.ViewModels
 {
    public class LoginViewModel : Screen
     {
-        private string _userName;
+        private string _userName = "";
         private string _password;
 
         public string UserName
@@ -19,8 +19,11 @@ namespace ARMDesktopUI.ViewModels
             {
                 _userName = value;
                 NotifyOfPropertyChange(() => UserName);
+                NotifyOfPropertyChange(() => CanLogIn);
+
             }
         }
+
 
         public string Password
         {
@@ -29,19 +32,23 @@ namespace ARMDesktopUI.ViewModels
             {
                 _password = value;
                 NotifyOfPropertyChange(() => Password);
+                NotifyOfPropertyChange(() => CanLogIn);
+
             }
         }
 
-        public bool CanLogIn(string userName, string password)
+        public bool CanLogIn
         {
-            bool output = false;
-
-            if (userName.Length > 0 & password.Length > 0)
+             get
             {
-                output = true;
-            }
+                bool output = false;
 
-            return output;
+                if (UserName?.Length > 0 && Password?.Length > 0 )
+                {
+                    output = true;
+                }
+                return output;
+            }
         }
 
         public void LogIn(string userName, string password)
