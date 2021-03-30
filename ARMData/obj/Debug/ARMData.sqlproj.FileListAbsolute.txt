@@ -1,0 +1,6 @@
+C:\Users\puert\OneDrive\Documents\Project\AJs-Retail-Manager\AJs-Retail-Manager\ARMData\bin\Debug\ARMData.dacpac
+C:\Users\puert\OneDrive\Documents\Project\AJs-Retail-Manager\AJs-Retail-Manager\ARMData\bin\Debug\ARMData.dll
+C:\Users\puert\OneDrive\Documents\Project\AJs-Retail-Manager\AJs-Retail-Manager\ARMData\bin\Debug\ARMData.pdb
+C:\Users\puert\OneDrive\Documents\Project\AJs-Retail-Manager\AJs-Retail-Manager\ARMData\obj\Debug\ARMData.sqlprojAssemblyReference.cache
+C:\Users\puert\OneDrive\Documents\Project\AJs-Retail-Manager\AJs-Retail-Manager\ARMData\obj\Debug\ARMData.dll
+C:\Users\puert\OneDrive\Documents\Project\AJs-Retail-Manager\AJs-Retail-Manager\ARMData\obj\Debug\ARMData.pdb
